@@ -1,0 +1,72 @@
+.estiloServicios {
+    padding-bottom: 3.75rem;
+    &:hover {
+        .icon-estilo {
+            color: $live-orange;
+        }
+    }
+    & .icon-estilo {
+        color: $dark-red;
+    }
+    h4 {
+        color: $dark-grey;
+        font: $font__servicios;
+        text-align: center;
+      }   
+    p {
+        max-width: 500px;
+      }
+    h5 {
+        color: $dark-green;
+        font: $font__servicios;
+        text-align: center;
+    }
+    button  {
+        &.agregarServ {
+            background-color: $dark-green;
+            &:hover {
+                color: black;
+                background-color: $live-green;
+            }
+        }
+        &.quitarServ {
+            background-color: $dark-red;
+            &:hover {
+                color: black;
+                background-color: $live-orange;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        max-width: 33.333333%;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+.verServ {
+    background-color: $live-green;
+    width: 50%;
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+#servAgregados {
+    margin-top: 7rem;
+}
+
+#notificacion, #notificacionQ {
+    color: $dark-green;
+    font: $font__servicios;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#finalizar {
+    h3 {
+        color: $dark-green;
+        font: $font__servicios;
+        margin: 1.5rem 0;
+    }
+}

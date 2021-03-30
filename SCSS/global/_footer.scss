@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  padding-bottom: 1.5rem;
+  &#sticky-footer {
+    flex-shrink: none;
+  }
+  .socialMedia {
+    margin-bottom: 1.5rem;
+    @media (min-width: 992px) {
+      margin-right: 40%;
+      margin-bottom: 0;
+    }
+    .btn-social {
+      color: white;
+      background-color: $dark-red;
+        &:hover {
+          color: $dark-grey;
+          background-color: $live-orange; 
+        }
+      height: 2.5rem;
+      width: 2.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 100%;
+    }
+  }
+  #footer {
+    font: $font__footer;
+  }
+}
+
+#page-content {
+  flex: 1 0 auto;
+}

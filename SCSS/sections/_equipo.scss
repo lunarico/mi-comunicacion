@@ -1,0 +1,16 @@
+.rounded-circle {
+    border-radius: 50% !important;
+  }
+
+.team-member {
+    img {
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        height: 14rem;
+        width: 14rem;
+        }
+    h4 {
+        color: $dark-grey;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+  }

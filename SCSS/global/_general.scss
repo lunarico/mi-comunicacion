@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+  }
+  
+.fixed-top {
+    position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.page-section {
+    margin-bottom: 1.875rem;
+      @media (min-width:992px) {
+          margin-bottom: 3.375rem;
+      }
+      @media (min-width: 1200px) {
+          margin-bottom: 4.375rem;
+      }
+    padding: 1rem;
+      @media (min-width:768px) and (max-width:992px) {
+        padding: 1rem 0.5rem;
+      }
+    h2 {
+        color: $dark-green;
+        font: $font__section-title;
+        margin-bottom: 4rem;
+        @media (min-width:768px) {
+          font-size: 3.5rem;;
+        }
+    }
+  }
+
+  button  {
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    font:$font__carrito;
+    padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
+}
+
+p {
+    color: #5D9168;
+    font: $font__servicios-descripcion;
+    line-height: 1.75rem;
+    margin: 0 0.75rem 1rem 0.75rem;
+    text-align: center;
+}

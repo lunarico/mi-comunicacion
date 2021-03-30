@@ -1,0 +1,18 @@
+#sobreNosotros {
+    background-attachment: fixed;
+    background-image: url("../img/fondoNosotros.png");
+    background-size: cover;
+    p {
+        color: $dark-grey;
+        font: $font__nosotros;
+        line-height: 1.875rem;
+        padding: 1rem 0;
+        @media (min-width:768px) {
+            padding: 1.5rem 2.5rem;
+            line-height: 3.125rem;
+        }
+        @media (min-width: 1200px) {
+            padding: 2rem 4.75rem;
+        }
+    }
+}

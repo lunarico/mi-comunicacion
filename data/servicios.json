@@ -1,0 +1,37 @@
+[{
+    "id": 1, 
+    "nombre": "Marketing Digital",
+    "descripcion": "Implementamos campañas de Comunicación y Marketing a través de la gestión de redes sociales, publicidad online, Google Adwords y posicionamiento orgánico.",  
+    "icono": "fa-mobile-alt",
+    "precio": 7500
+    }, {
+    "id": 2, 
+    "nombre": "Diseño y Creatividad",
+    "descripcion": "Nos enfocamos en nuestra creatividad para lograr una estrategia de marca que se adapte a cada cliente. Ofrecemos diseño corporativo y publicitario, diseño para entornos digitales, y diseño de producto.",  
+    "icono": "fa-eye",
+    "precio": 8000
+    }, {
+    "id": 3, 
+    "nombre": "Comunicación Estratégica",
+    "descripcion": "Desarrollamos la estrategia y planificación de un Programa Integral de Comunicación que incluye campañas de imagen y reputación, campañas políticas, y relaciones públicas con sectores de interés.",  
+    "icono": "fa-comments",
+    "precio": 5000
+    }, {
+    "id": 4, 
+    "nombre": "Desarrollo Web",
+    "descripcion": "Realizamos sitios web y comercios electrónicos adaptados a todos los dispositivos, diseñando estrategias de comunicación y marketing web. Incluye la compra de dominio y gestión del Hosting.",  
+    "icono": "fa-code",
+    "precio": 900
+    }, {
+    "id": 5, 
+    "nombre": "Contenido Multimedia",
+    "descripcion": "Generamos contenidos acordes a los objetivos de marketing y a los de la organización realizando campañas de publicidad, promociones, y difusión en redes sociales.",  
+    "icono": "fa-photo-video",
+    "precio": 7500
+    }, {
+    "id": 6, 
+    "nombre": "Aparición en Medios",
+    "descripcion": "Si tenés un proyecto o evento que mostrar, conseguimos que aparezca en los medios adecuados a través del desarrollo de una Estrategia y un Plan de Medios.",  
+    "icono": "fa-tv",
+    "precio": 10000
+}]
